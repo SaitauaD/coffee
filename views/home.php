@@ -1,13 +1,14 @@
    	
    	<div class="main">
-	    <h1>Welcome</h1>
-	    <p></p>
+	    <h1>WELCOME	</h1>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, porro, molestias, fugiat, consequuntur nihil tempore a autem fuga libero exercitationem aut sed incidunt atque non illum voluptas enim modi neque?</p>
 		
-		<div class="bucket">
+		<div id="bucket">
 		    <div class="button">
-		     	<h2>Login</h2>
-	<!--	       	<a href="#"><img src="" alt=""></a>
-		       	<form action="">
+		    	<div class="session">
+		     		<a class="link" href="#">Login</a>
+		     	</div>	
+		    	<form class="dropdown" action="#">
 			       	<div class="row">
 						<label for="">Username</label>
 						<input type="text">
@@ -18,17 +19,18 @@
 			       	</div>
 			       	<div class="row">
 						<input type="submit" value="Login">
-			       	</div> 						
-		       	</form>											-->
+			       	</div> 	  						
+		       	</form>											
 		    </div> <!-- end of button div -->
 
 		    <div class="button">
-		     	<h2>Register</h2>
-	<!--	       	<a href="#"><img src="" alt=""></a>
-		       	<form action="">
+		    	<div class="session">
+		     		<a class="link" href="#">Register</a>
+		     	</div>	
+		    	<form class="dropdown" action="#">
 			       	<div class="row">
 						<label for="">Create username</label>
-						<input type="text">
+						<input id="username" type="text">
 			       	</div>
 			       	<div class="row">
 						<label for="">Create password</label>
@@ -37,12 +39,13 @@
 			       	<div class="row">
 						<input type="submit" value="Login">
 			       	</div> 						
-		       	</form>											-->
+		       	</form>											
 		    </div> <!-- end of button div -->
 
 		    <div class="button">
-		     	<h2>Guest</h2>
-	<!--	       	<a href="#"><img src="" alt=""></a>   		-->
+		    	<div class="session">
+					<a class="link" href="#">Guest</a>
+				</div>	
 		    </div> <!-- end of button div -->
 	     </div> <!-- end of bucket div -->
 	</div> <!-- end of main div -->

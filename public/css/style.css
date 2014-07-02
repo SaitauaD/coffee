@@ -16,38 +16,31 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 
 *{
 	
-	outline: 1px dotted orange;
+	outline: 1px dotted orange; 
 
 	box-sizing: border-box;         /* Opera/IE 8+ */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 }
 
+/* ------ General ------- */
+
 body{
 	background: black;
+/*	background: url('../images/background/coffee.jpg') no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover; 			*/
 	font-family: 'Amatic SC', cursive;
 	color: #333;
+	font-size: 1.5em;
 }
-
 
 .main, header, footer{
 	width: 960px;
 	margin: 0 auto; 
-}
-
-.bucket{
-	width: 900px;
-	position: relative;
-	margin: 0 auto;
-}
-
-.button{
-	width: 250px;
-	display: inline-block;
-	padding: 10px;
-	margin: 0 24px;
-	text-align: center;
-	font-size: 2em;
+	background: rgba(0, 0, 0, 0.8);
 }
 
 .line{
@@ -55,3 +48,152 @@ body{
 	width: 800px;
 	margin: 0 auto;
 }
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+/* ------ HEADER ------- */
+
+#logo, nav{
+	float: left;
+	position: relative;
+}
+#logo{
+	margin: 30px 0 0 30px;
+	padding: 10px;
+}
+
+/* ------ NAVIGATION ------- */
+
+nav{
+	margin-top: 55px;
+
+}
+
+nav ul{
+	margin: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 0 50px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+nav ul li a:hover{
+	color: tomato;
+}
+/* ------ MAIN ------- */
+
+.main h1, .main p{
+	text-align: center;
+}
+
+.main p{
+	padding: 10px 50px; 
+	line-height: 1.5;
+}
+
+	/* ------ BUCKET ------- */
+
+	#bucket{
+		width: 900px;
+		min-height: 100%; 
+		position: relative;
+		margin: 0 auto;
+	}
+
+	.button{
+		width: 250px;
+		display: inline-block;
+		padding: 15px;
+		margin: 0 23px;
+		text-align: center;
+		font-size: 1em;
+		position: relative;
+	}
+	.session a{
+		text-decoration: none;
+		color: tomato;
+		font-size: 50px;
+	}
+	.session a:hover{
+		border-top: 1px solid tomato;
+		border-bottom: 1px solid tomato;
+	}
+	
+
+		/* ------ DROPDOWN ------- */
+		
+		.dropdown{
+			width: 250px;
+			font-size: 0.8em;
+			display: none;	
+		}
+
+		.dropdown input[type="text"], input[type="password"]{
+			width: 100px;
+			margin: 10px;
+			padding-bottom: 10px;
+			border: 1px dotted black;
+			border-bottom: 1px dotted white;
+			background: black;
+			color: white;
+		}
+
+		.dropdown input[type="submit"]{
+			margin: 10px 0 0 110px;
+			font-size: 15px;
+			background: black;
+			color: #fff;
+			border: 1px solid #fff;
+		}
+
+
+
+
+/* ------ HEADER ------- */
+/* ------ HEADER ------- */
+/* ------ FOOTER ------- */
+
+footer{
+	text-align: center;
+	font-size: 0.7em;
+}
+footer a{
+	text-decoration: none;
+	color: #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
