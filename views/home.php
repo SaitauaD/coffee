@@ -1,4 +1,5 @@
    	
+   	<div class="line"></div>
    	<div class="main">
 	    <h1>WELCOME	</h1>
 	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, porro, molestias, fugiat, consequuntur nihil tempore a autem fuga libero exercitationem aut sed incidunt atque non illum voluptas enim modi neque?</p>
@@ -49,3 +50,4 @@
 		    </div> <!-- end of button div -->
 	     </div> <!-- end of bucket div -->
 	</div> <!-- end of main div -->
+	<div class="line"></div>

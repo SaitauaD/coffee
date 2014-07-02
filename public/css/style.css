@@ -16,7 +16,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 
 *{
 	
-	outline: 1px dotted orange; 
+	outline: 1px dotted orange;  
 
 	box-sizing: border-box;         /* Opera/IE 8+ */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -45,7 +45,7 @@ body{
 
 .line{
 	border-bottom: 1px solid white;
-	width: 800px;
+	width: 960px;
 	margin: 0 auto;
 }
 .clearfix:after {
@@ -63,14 +63,14 @@ body{
 	position: relative;
 }
 #logo{
-	margin: 30px 0 0 30px;
+	margin: 30px 0 30px 30px;
 	padding: 10px;
 }
 
 /* ------ NAVIGATION ------- */
 
 nav{
-	margin-top: 55px;
+	margin-top: 70px;
 
 }
 
@@ -121,6 +121,9 @@ nav ul li a:hover{
 		font-size: 1em;
 		position: relative;
 	}
+	.session1 a{
+		position: absolute;
+	}
 	.session a{
 		text-decoration: none;
 		color: tomato;
@@ -135,7 +138,7 @@ nav ul li a:hover{
 		/* ------ DROPDOWN ------- */
 		
 		.dropdown{
-			width: 250px;
+			width: 235px;
 			font-size: 0.8em;
 			display: none;	
 		}
@@ -143,11 +146,11 @@ nav ul li a:hover{
 		.dropdown input[type="text"], input[type="password"]{
 			width: 100px;
 			margin: 10px;
-			padding-bottom: 10px;
 			border: 1px dotted black;
 			border-bottom: 1px dotted white;
 			background: black;
 			color: white;
+			font-family: inherit;
 		}
 
 		.dropdown input[type="submit"]{
@@ -156,6 +159,7 @@ nav ul li a:hover{
 			background: black;
 			color: #fff;
 			border: 1px solid #fff;
+			font-family: inherit;
 		}
 
 
