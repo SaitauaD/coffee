@@ -1,15 +1,20 @@
    	
    	<div class="line"></div>
    	<div class="main">
-	    <h1>WELCOME	</h1>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, porro, molestias, fugiat, consequuntur nihil tempore a autem fuga libero exercitationem aut sed incidunt atque non illum voluptas enim modi neque?</p>
-		
+
 		<div id="bucket">
+
+			<div class="button">
+		    	<div class="session">
+					<a class="link" href="#">Guest</a>
+				</div>	
+		    </div> <!-- end of button div -->
+	    
 		    <div class="button">
 		    	<div class="session">
 		     		<a class="link" href="#">Login</a>
 		     	</div>	
-		    	<form class="dropdown" action="#">
+		    	<form class="dropdown" id="dropdown" action="#">
 			       	<div class="row">
 						<label for="">Username</label>
 						<input type="text">
@@ -18,7 +23,7 @@
 						<label for="">Password</label>
 						<input type="password">
 			       	</div>
-			       	<div class="row">
+			       	<div class="row" id="row">
 						<input type="submit" value="Login">
 			       	</div> 	  						
 		       	</form>											
@@ -42,12 +47,17 @@
 			       	</div> 						
 		       	</form>											
 		    </div> <!-- end of button div -->
+		 </div> <!-- end of bucket div -->    
+	
+		<div class="line"></div>
 
-		    <div class="button">
-		    	<div class="session">
-					<a class="link" href="#">Guest</a>
-				</div>	
-		    </div> <!-- end of button div -->
-	     </div> <!-- end of bucket div -->
+
+	    <h1>Wake up & smell the coffee</h1>
+	    <p>Hate waiting for your coffee? &nbsp &nbsp &nbsp Why not jump to the front of the queue.</p>
+	    <p>With meDRINKS you can do just that!</p>
+		
+		<div id="banner">
+		<!--	<img src="../public/images/coffee/banner.fw.png" alt="">    -->
+		</div>
+
 	</div> <!-- end of main div -->
-	<div class="line"></div>

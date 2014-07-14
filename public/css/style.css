@@ -16,7 +16,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 
 *{
 	
-	outline: 1px dotted orange;  
+/*	outline: 1px dotted orange;  */
 
 	box-sizing: border-box;         /* Opera/IE 8+ */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -26,26 +26,28 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary
 /* ------ General ------- */
 
 body{
-	background: black;
-/*	background: url('../images/background/coffee.jpg') no-repeat center center fixed; 
+/*	background: #140000; */
+	background: url('../images/background/background22.jpg') no-repeat center center fixed; 
   		-webkit-background-size: cover;
   		-moz-background-size: cover;
   		-o-background-size: cover;
-  		background-size: cover; 			*/
-	font-family: 'Amatic SC', cursive;
-	color: #333;
+  		background-size: cover; 			
+	font-family: 'Amatic SC', 'Helvetica neue';
+	color: #A08C64;
 	font-size: 1.5em;
 }
 
-.main, header, footer{
+.container{
 	width: 960px;
 	margin: 0 auto; 
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0,0,0,0.8);
+	border-radius: 5px;
+	margin-top: 50px;
 }
 
 .line{
-	border-bottom: 1px solid white;
-	width: 960px;
+	border-bottom: 1px solid #C7C1AF;
+	width: 870px;
 	margin: 0 auto;
 }
 .clearfix:after {
@@ -67,41 +69,46 @@ body{
 	padding: 10px;
 }
 
-/* ------ NAVIGATION ------- */
+	/* ------ NAVIGATION ------- */
 
-nav{
-	margin-top: 70px;
+	nav{
+		margin-top: 70px;
 
-}
+	}
 
-nav ul{
-	margin: 0;
-}
+	nav ul{
+		margin: 0;
+	}
 
-nav ul li{
-	display: inline-block;
-	padding: 10px 20px;
-	margin: 0 50px;
-}
+	nav ul li{
+		display: inline-block;
+		padding: 10px 20px;
+		margin: 0 50px;
+	}
 
-nav ul li a{
-	text-decoration: none;
-	color: #fff;
-	font-size: 20px;
-}
-nav ul li a:hover{
-	color: tomato;
-}
-/* ------ MAIN ------- */
+	nav ul li a{
+		text-decoration: none;
+		color: #fff;
+		font-size: 20px;
+	}
+	nav ul li a:hover{
+		color: tomato;
+	}
+	/* ------ MAIN ------- */
 
-.main h1, .main p{
-	text-align: center;
-}
+	.main h1, .main p{
+		text-align: center;
+	}
+	.main h1{
+		margin: 10px 0;
+	}
 
-.main p{
-	padding: 10px 50px; 
-	line-height: 1.5;
-}
+	.main p{
+		margin: 0;
+		line-height: 1.5;
+	}
+
+/* ------ MAIN ------- */	
 
 	/* ------ BUCKET ------- */
 
@@ -113,65 +120,97 @@ nav ul li a:hover{
 	}
 
 	.button{
-		width: 250px;
+		width: 280px;
 		display: inline-block;
-		padding: 15px;
-		margin: 0 23px;
+		margin: 0 9px;
 		text-align: center;
 		font-size: 1em;
 		position: relative;
-	}
-	.session1 a{
-		position: absolute;
 	}
 	.session a{
 		text-decoration: none;
 		color: tomato;
 		font-size: 50px;
+		margin: 0;
 	}
 	.session a:hover{
-		border-top: 1px solid tomato;
-		border-bottom: 1px solid tomato;
+		color: white;
 	}
-	
 
 		/* ------ DROPDOWN ------- */
 		
 		.dropdown{
-			width: 235px;
+			width: 280px;
 			font-size: 0.8em;
 			display: none;	
+
+			-webkit-transition: display 2s ease;
+
+		       -moz-transition: display 2s ease;
+
+		         -o-transition: display 2s ease;
+
+		            transition: display 2s ease;
 		}
+
 
 		.dropdown input[type="text"], input[type="password"]{
-			width: 100px;
-			margin: 10px;
-			border: 1px dotted black;
-			border-bottom: 1px dotted white;
-			background: black;
+			margin: 5px;
+			border: 1px dotted #333;
+			
+			background: rgba(0,0,0,0.3);
 			color: white;
 			font-family: inherit;
+			border-radius: 5px;
 		}
 
+		#dropdown input[type="text"], input[type="password"]{
+			width: 195px;	
+		}
+		.dropdown input[type="text"], input[type="password"]{
+			width: 180px;
+		}
+		.dropdown input[type="text"]{
+			margin-top: 20px;
+		}
+		
 		.dropdown input[type="submit"]{
-			margin: 10px 0 0 110px;
+			margin: 10px 0 0 180px;
 			font-size: 15px;
-			background: black;
+			background: rgba(0,0,0,0.6);
 			color: #fff;
 			border: 1px solid #fff;
 			font-family: inherit;
 		}
+		#row input[type="submit"]{
+			margin: 10px 0 0 190px;
+		}
+		.dropdown input[type="submit"]{
+			margin: 10px 0 0 220px;
+		}
+
+	/* ------ IMG BANNER ------- */
+	
+	#banner{
+		width: 870px;
+		height: 300px;
+		margin: 0 auto;
+	}
+	#banner>img{
+		width: 870px;
+		height: 300px;
+	}
 
 
 
 
-/* ------ HEADER ------- */
 /* ------ HEADER ------- */
 /* ------ FOOTER ------- */
 
 footer{
 	text-align: center;
 	font-size: 0.7em;
+	margin: 20px;
 }
 footer a{
 	text-decoration: none;

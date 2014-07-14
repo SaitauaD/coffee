@@ -3,7 +3,7 @@
 <head>
 	<link rel="stylesheet" href="../public/css/style.css">
 	<meta charset="UTF-8">
-	<title>drinkMe</title>
+	<title>theGRIND</title>
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	<script>
 
@@ -31,14 +31,15 @@
 	</script>
 </head>
 <body>
-	<header class="clearfix">
-		<img id="logo" src="../public/images/logo/logo.fw.png" alt="">
+	<div class="container">
+		<header class="clearfix">
+			<img id="logo" src="../public/images/logo/logo.fw.png" alt="">
 
-		<nav>
-			<ul>
-				<li><a href="#">About us</a></li>
-				<li><a href="#">Gallery</a></li>
-				<li><a href="#">Our Partners</a></li>
-			</ul>
-		</nav>
-	</header>
+			<nav>
+				<ul>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Our Partners</a></li>
+				</ul>
+			</nav>
+		</header>
